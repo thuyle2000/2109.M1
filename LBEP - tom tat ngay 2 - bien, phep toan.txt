@@ -85,3 +85,7 @@ Session 3: Phep toan va bieu thuc
 5. Phep toan luan ly ( && , || ,  ! )
 
 6. Phep toan luan ly nhi phan (& , | , ~ , ^ )
+
+
+Homework :
+- lam bai tap cua session 2 (CYP + TIY)
