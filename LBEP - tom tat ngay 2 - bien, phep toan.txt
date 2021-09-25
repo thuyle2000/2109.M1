@@ -1,0 +1,87 @@
+* CYP session 1 (page 37)
+1. synthesis
+2. flowchart
+3. true
+4. false
+5. loop
+
+* TIY (page 38)
+1. pseudo code:
+	begin
+		input C degree
+		F = (c*9/5) + 32
+		output F degree  	
+	end
+
+2. pseucode
+	begin
+		input Physics, Chemistry, Biology
+		total =  Physics+Chemistry+Biology
+		average = total/3
+		output total, average
+	end
+
+* * * * * * * * * * *
+Session 2: Bien va Kieu du lieu 
+1. bien bo nho (variable): 
+	- vung nho ben trong may tinh, duoc su dung de luu tru tam thoi cac 
+	gia tri tinh toan trong chuong trinh.
+	- duoc truy cap thong qua ten dinh danh (identifier name)
+	- vi du: x, y, a, binhquan, sum
+
+2. hang gia tri (constant):
+	- la nhung gia tri bat bien
+	- duoc su dung de luu gia tri cho bien
+	- vi du: 5, 5.3, "Anh Vu", 'y'
+
+3. Ten dinh danh (idenfier name)
+	- dung de dat ten cho bien, ham, hang ...
+	- co qui tac rieng ve cach dat ten, thuong la:
+	  + bat dau bang ky tu chu (a-z)
+	  + ko co ky tu dac biet (! & @ # - ...)
+	  + co do dai phu thuoc vao tung trinh bien dich (compiler)
+	  + doi voi NNLT C, co su phan biet giua chu thuong va chu hoa
+	  + ko duoc phep trung voi cac tu khoa 
+	  + tranh su dung cac ky tu gay hieu lam (l-1 0-O ... )
+
+4. Kieu du lieu (data type)
+	- mo ta loai du lieu duoc luu tru trong bien bo nho.
+	- bao gom:
+	  + dang so (numbers) : so nguyen (1, 34, 899.. ), so thuc (3.1415, 99.99... ), so duong, so am ...
+	  + dang ky tu (names) : "Hung", "Tram Anh" ...
+	  + dang luan ly (logical) : true-false / yes-no
+	- cac kieu du lieu co ban cua NNLT C:
+	  + int (so nguyen)
+	  + float (so thuc - 6 so le)
+  	  + double (so thuc - 10 so le)
+	  + char (1 ky hieu bat ky dat trong cap dau ''. vi du 'a', '8', '%'...) 
+	  + void (ap dung cho function ko co gia tri tra ve)
+
+	
+5. Lam viec voi bien bo nho:
+	  + can khai bao bao bien truoc khi su dung
+	  + sau khi khai bao, gan gia tri cho bien (gan truc tiep / nhap du lieu)
+
+
+
+
+
+* * * * * * * * * * *
+Session 3: Phep toan va bieu thuc
+1. Bieu thuc (expression)
+	- la su ket hop giua cac phep toan va so hang.
+	  vi du:  2 * y + 5
+
+2. Phep toan gan ( = )
+
+3. Phep toan so hoc  ( + , - , * , / , % )
+	- 1 ngoi (unary): chi can 1 so hang, 
+	  la cac phep toan ++ (tang), -- (giam) , -
+
+	- 2 ngoi (binary): can 2 so hang
+
+4. Phep toan so sanh ( == , != , < , <= , > , >= )
+
+5. Phep toan luan ly ( && , || ,  ! )
+
+6. Phep toan luan ly nhi phan (& , | , ~ , ^ )

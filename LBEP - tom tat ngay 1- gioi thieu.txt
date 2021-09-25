@@ -1,0 +1,71 @@
+Tóm tắt buổi học đầu tiên:
+
+- Trưởng lớp : Nguyen Anh Vu
+- Recorder : Nguyen Anh Vu, ...
+- Faculty: Le Mong Thuy - thuyle2000@gmail.com / thuylm@fe.edu.vn
+- kênh liên lạc / tương tác hổ trợ : FB group - [T1.2109.M1]
+
+
+- Link kho học liệu của học kỳ 1:  https://bit.ly/3agyDLU
+- Link học online : https://meet.google.com/xox-euvb-qqj?fbclid=IwAR0ArJXfjhzNHFemRb4WHFh2viPDsgv1e3_SZch9afBUsmFltwiVbK0IoG4
+
+- Môn học đầu tiên:
+  - LBEP : lập trình cơ bản bằng ngôn ngữ C
+  - Sách học ebook: trên kho học liệu - cần lên website chính thức của Aptech India : online-varsity, download sách học về.
+  - Phần mềm để lập trình C: DEV-C / VSCODE 
+
+- Tóm tắt bài 1: Khái niệm cơ bản
+ 1/ Mối quan hệ giữa Software / Program / Command
+    Phần mềm ứng dụng : MS-Office, Zalo, Firefox,
+			Google Store, Instagram, 
+			Google Map, Visual Studio
+
+    Phần mềm hệ thống : Google Chrome, Windows, Mac, Linux
+			driver 
+    
+2/ Giới thiệu NNLT C
+	- xuất xứ, lịch sử đặt tên
+	- phân loại : NNLT mức middle
+	- Cấu trúc chương trình
+	- Các từ khóa (keywords) ; 
+		- số lượng : 32
+		- viết chữ thường 
+		- ko đc dùng để đặt tên định danh
+
+
+3/ Cấu trúc cơ bản của chương trình viết bằng NNLT C
+	- bao gồm nhiều hàm (functions)
+	- nhưng hàm được thi hành đầu tiên là hàm main()
+	- thân hàm (nội dung hàm) bao gồm nhiều câu lệnh đặt
+	  trong cặp dấu { }
+	- mỗi câu lệnh phải kết thúc bằng dấu ;
+	- các ghi chú (comment) sẽ bị bỏ qua lúc biên dịch (compile)
+	  /* ghi chú nhiều dòng  */
+	  // ghi chú 1 dòng
+
+	- các chương trình mã nguồn - source code (.cpp / .c) sẽ được biên dịch (compile)
+ 	  thành mã máy (.exe) đê thi hành trên nền HĐH.
+ 	  lưu ý: - tên thư mục (folder) và tên tập tin mã nguồn ko được chứa các ký hiệu
+     		   đặt biệt, tiếng việt, khoảng trăng ! 
+
+4/ Thuật giải (algorithm)
+	- mô tả các bước cần thực hiện trong 1 chương trình theo đúng thứ tự
+	- có 2 phương pháp :
+		a. mã giả : pseudocode
+		b. lưu đồ khối : flowcharts, bao gồm 6 ký hiệu hình học
+		(draw.io -> https://app.diagrams.net/)
+		c. cấu trúc lập trình:
+			- tuần tự
+			- rẽ nhánh
+			- vòng lặp
+
+
+
+
+* * * * * * * * 
+Bài tập về nhà (Homework)
+1/ Liệt kê 32 từ khóa của NNLT C
+2/ bài tập CYP của session 1 - page 37 (điền vào chổ trống)
+3/ bài tập TIY của session 1 - page 38 (2 bài tập nhỏ)
+
+  
