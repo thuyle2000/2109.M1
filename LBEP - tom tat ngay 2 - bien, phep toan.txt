@@ -1,3 +1,6 @@
+Link github chua kho tai lieu hoc cua lop : 
+https://github.com/thuyle2000/2109.M1
+
 * CYP session 1 (page 37)
 1. synthesis
 2. flowchart
