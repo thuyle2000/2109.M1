@@ -1,0 +1,23 @@
+* CYP session 2:
+1. true
+2. whole number
+3. false
+4. float - double 
+5. void
+6. unary and binary
+7. ++ / --
+vd: a = 12;
+    b = a++; // b=12, a=13
+    c = ++a; // a=14, c=14
+
+* TIY
+1. 
+8, 23 	: integer constants
+10.34 	: floating point numbers
+A B C	: invalid identifier names
+abc, _A1, $abc	: valid identifier names 
+12112134.86868686886 : double
+'A'	: Character Constants
+
+
+	
