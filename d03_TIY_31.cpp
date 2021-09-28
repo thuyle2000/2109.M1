@@ -20,8 +20,7 @@ int main(){
 	printf("Hinh tron co ban kinh %d \n", r);
 	printf(" >> Dien tich = %f \n", dt);
 	printf(" >> Chu vi = %f \n", cv);	
-	
-	
+
 }
 
 

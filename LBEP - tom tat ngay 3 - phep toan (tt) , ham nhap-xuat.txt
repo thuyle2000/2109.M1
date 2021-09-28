@@ -20,4 +20,75 @@ abc, _A1, $abc	: valid identifier names
 'A'	: Character Constants
 
 
+* Session 3 : Phep toan (cnt)
+- phep toan so sanh: <  <=  >  >=  ==  !=
+
+- phep toan luan ly: ket cac dieu kien so sanh voi nhau
+  and ( && ) 	
+	true && true   => true
+
+	true && false  => false
+	false && true
+	false && false  
+
+  or  ( || )	
+	false || false => false
+
+	true || true   => true
+	true || false  
+	false || true
+
+  not ( !  )
+	!true  => false
+	!false => true
+
+- phep toan luan ly nhi phan (bitwise logical)	
+  thuc hien phep toan luan ly tren tung bit du lieu
+  cua cac cap so nguyen
+
+  and ( & ) 	
+	1 & 1  = 1
+
+	1 & 0  = 0
+	0 & 1
+	0 & 0
+
+  or  ( | )	
+	0 | 0  = 0
+
+	1 | 1  = 1
+	1 | 0  
+	0 | 1
+
+  xor  ( ^ )	
+	1 ^ 0  = 1
+	0 ^ 1    
+
+	1 ^ 1  = 0
+	0 ^ 0   
 	
+  not ( !  )
+	!1  = 0
+	!0  = 1
+
+vi du: 
+ a = 19, b = 28
+ a & b = ?
+he phan phan (0->9) : 19 & 28
+he nhi phan (0-1)   : 0001 0011 (19)
+		      0001 1100	(28)
+
+		and   0001 0000 (2^4 = 16)
+
+		or    0001 1111 (2^4+2^3+2^2+2^1+2^0
+				 =16+8+4+2+1 = 31)
+
+		xor   0000 1111 (2^3+2^2+2^1+2^0
+				 =8+4+2+1 = 15)
+
+	luu y: xor + and = or
+
+
+he thap phan:
+1282 = 1*10^3 + 2*10^2 + 8*10^1 + 2*10^0
+
