@@ -92,3 +92,18 @@ he nhi phan (0-1)   : 0001 0011 (19)
 he thap phan:
 1282 = 1*10^3 + 2*10^2 + 8*10^1 + 2*10^0
 
+
+
+* * * * * * * * * * * * * * * * * * *
+Session 4: Cac ham nhap / xuat chuan
+* * * * * * * * * * * * * * * * * * *
+
+- ham xuat co dinh dang: printf("control string", argument-list)
+- ham nhap co dinh dang: scanf("control string", argument-list)
+- printf() vs scanf()
+	1. control string : scanf() chi chua format-command: %d,%f,%c,%s
+	2. argument-list: scanf() chi chua bien con tro: truoc ten bien co dau &
+
+
+
+
