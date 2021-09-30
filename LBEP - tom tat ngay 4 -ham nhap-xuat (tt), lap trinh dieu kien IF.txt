@@ -22,6 +22,18 @@
   }
 
 
+- if (dk1) {
+     thuc hien khi dk1 dung
+  }
+  else if(dk2){
+     thuc hien khi dk1 sai va dk2 la dung
+  }
+  else if(dk3){
+     thuc hien khi dk1, dk2 sai va dk3 la dung
+  }
+  else{
+     thuc hien khi dk1, dk2 va dk3 la sai 
+  }
 
 
 
