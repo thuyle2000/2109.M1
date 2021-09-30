@@ -36,5 +36,5 @@
   }
 
 
-
+- switch - case: ket thuc moi case bang lenh break.
 
