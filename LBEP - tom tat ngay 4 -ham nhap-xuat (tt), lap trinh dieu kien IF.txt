@@ -1,0 +1,28 @@
+* CYP session 4 (operators & expressions)
+1. a - operators
+2. a - expression
+3. b - precedence
+4. b - mixed mode expression
+5. a - cast
+6. a - logical expression
+7. b - &, |, ~ and ^
+8. c - parentheses 
+
+
+*********************************************************
+* Session 5: Lap trinh dieu kien IF / IF-ELSE/ SWITCH-CASE
+*********************************************************
+- if (dk) { thuc hien khi dk dung }
+
+- if (dk) {
+     thuc hien khi dk dung
+  }
+  else{
+     thuc hien khi dk sai
+  }
+
+
+
+
+
+
