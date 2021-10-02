@@ -1,0 +1,18 @@
+* CYP session 6 *
+* * * * * * * * *
+1.a - printf() & scanf()
+2.b - pointer
+3.b - format specifier
+4.a - %
+5.true
+6.c - buffer
+7.false
+
+
+* CYP session 7 *
+* * * * * * * * *
+1.a - conditional
+2.true
+3.b - nested if
+4.c - switch
+5.b - statement 2
