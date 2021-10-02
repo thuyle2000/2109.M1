@@ -16,3 +16,8 @@
 3.b - nested if
 4.c - switch
 5.b - statement 2
+
+* * * * * * * * * * * * * * * * *
+* Session 8 : Lap trinh Vong Lap
+* * * * * * * * * * * * * * * * *
+1/ vong lap FOR
