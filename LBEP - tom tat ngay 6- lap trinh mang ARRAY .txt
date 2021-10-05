@@ -1,0 +1,44 @@
+* * * * * * * * * * * * *
+* CYP session 9: LOOP
+* * * * * * * * * * * * *
+1. a - loop
+2. a - while
+3. b - semicolon
+4. c - do..while
+5. b - return
+6. c - goto
+7. a - exit()
+* * * * * * * * * * * * *
+
+Bieu thuc dieu kien tam phan:
+	x = (dieukien) ? r1 : r2;
+
+tuong duong cach viet:
+	if(dieukien){
+   	   x = r1;
+	}
+	else{
+   	   x = r2;
+	}
+
+* * * * * * * * * * * * *
+Day so fibonacci:
+- cu : 1, 1,    2,  3,  5,  8, 13, 21, 34 ...
+
+- moi: 0, 1,    1,  2,  3,  5,  8, 13, 21 ...
+
+	cong thuc tinh :
+	f0 = 0,  f1 = 1 
+	f2 = f1 + f0 = 1 + 0 = 1
+	f3 = f2 + f1 = 1 + 1 = 2
+
+	f4 = f3 + f2 = 2 + 1 = 3
+
+	f5 = f4 + f3 = 3 + 2 = 5
+	f6 = f5 + f4 = 5 + 3 = 8
+	...
+
+	fn = fn-1 + fn-2
+t-tieptheo = t2   + t1
+c          = b    + a
+
