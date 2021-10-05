@@ -72,3 +72,5 @@ c          = b    + a
 - noi chuoi 		: strcat(s1, s2)
 - dem ky tu trong chuoi : strlen(s1)
 - so sanh chuoi 	: strcmp(s1, s2)
+- tim kiem ky tu trong chuoi: strchr(s1, ch)
+- tim kiem chuoi trong chuoi: strstr(s1, s2)
