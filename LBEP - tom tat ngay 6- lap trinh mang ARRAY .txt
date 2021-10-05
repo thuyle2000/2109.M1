@@ -42,3 +42,18 @@ Day so fibonacci:
 t-tieptheo = t2   + t1
 c          = b    + a
 
+
+
+
+* * * * * * * * * * * * * * * * * * *
+* session 10: Lap trinh mang (Array)
+* * * * * * * * * * * * * * * * * * *
+1/ Array la 1 bien bo nho dac biet, co the luu tru nhieu gia tri (phan tu)
+   Moi phan tu trong mang, duoc truy xuat thong qua ten bien mang va 1 chi so index
+   vd: khai bao mang so nguyen, ten la a, gom 10 phan tu
+       int a[10];
+       a[0] = 5;
+
+       khai bao mang so thuc, ten la b, gom 20 phan tu
+       float b[20];
+       b[19] = 3.18;	
