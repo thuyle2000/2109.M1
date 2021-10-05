@@ -57,3 +57,18 @@ c          = b    + a
        khai bao mang so thuc, ten la b, gom 20 phan tu
        float b[20];
        b[19] = 3.18;	
+
+2/ Su khac biet giua bien mang va bien binh thuong trong NNLT C
+- 2 mang mac dau cung kieu cung kich thuoc, nhung ko the so sanh bang nhau.
+- 2 mang, ko the gan gia tri truc tiep cho nhau duoc.
+  vd: int a[5] = {1,5,10,20,100};
+      int b[5];
+      b = a;
+
+3/ Chuoi (string) la 1 mang ky tu dac biet, luon duoc khoa bang ky tu null (\0)
+
+4/ Cac ham xu ly chuoi pho bien (khai bao trong file header <string.h>)
+- gan chuoi 		: strcpy(s1, s2)
+- noi chuoi 		: strcat(s1, s2)
+- dem ky tu trong chuoi : strlen(s1)
+- so sanh chuoi 	: strcmp(s1, s2)
