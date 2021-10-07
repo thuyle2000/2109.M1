@@ -46,3 +46,34 @@ whereas the interchanging is done by ________
 			//co do dai toi da la 79 ky tu
 
 
+
+
+* * * * * * * * * * * * * * *
+* Session 13: Con trỏ (pointer)
+* * * * * * * * * * * * * * *
+1. Con trỏ là biến đặc biệt, chứa địa chỉ ô nhớ của 1 biến khác cùng kiểu với nó
+   Ví dụ : int a= 5; 
+           int *p = &a;
+
+2. phép toán & và * :
+	& trả về địa chỉ ô nhớ
+	* trả về nội dung ô nhớ có địa chỉ chứa trong con trỏ / 
+    	  có thể dùng * để thay đổi giá trị của biến có đc chứa trong con trỏ
+
+3. phép toán số học + và - (hoặc ++, --)
+
+4. phép toán so sánh địa chỉ 
+
+5. con trỏ có thể kết hợp với mãng
+
+6. con trỏ có thể kết hợp với chuỗi (strstr() / strchr())
+
+8. con trỏ áp dụng trong phương pháp cấp phát bộ nhớ động
+   malloc()
+   calloc()
+   realloc()
+   free()
+
+
+
+
