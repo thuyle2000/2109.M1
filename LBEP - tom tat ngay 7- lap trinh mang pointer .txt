@@ -1,0 +1,48 @@
+* * * * * * * * * * * * * * *
+* CYP Session 11
+* * * * * * * * * * * * * * *
+1. b - array
+An ________ is a collection of data elements of the same type that 
+are referred by a common name.
+
+2. a - Index, Subscript 
+Each member of an array is identified by the unique _______ or _______ 
+assigned to it.
+
+3. False
+An array name and a variable name can be the same. (T/F) 
+
+4. False
+Each element of an array cannot be used where a variable is 
+allowed or required. (T/F) 
+
+5. C - Equality
+Two arrays, even if they are of the same type and size, 
+cannot be tested for __________.
+
+6. C - NULL
+String can be defined as a character type array, which is 
+terminated by a _____ character
+
+7. True
+Arrays can have more than one dimension. (T/F)
+
+8. A - strcmp,strcpy
+The comparison of two strings is done with the help of _______ 
+whereas the interchanging is done by ________
+
+
+* * * * * * * * * * * * * * *
+* Session 11: Array(cont.)
+* * * * * * * * * * * * * * *
+
+1. Mãng nhiều chiều - vd mãng 2 chiều:
+   int a[4][5];		//mang a[][] chua 20 so nguyen tren 4 dong va 5 cot
+   float b[3][3];	//mang b[][] chua 9 so thuc tren 3 dong va 3 cot
+
+   char s[5][80];	//mang s[][] chua duoc 400 ky tu tren 5dong va 80 cot
+			//nhung neu xem mang s nhu la mang chuoi thi
+			//mang s la mang chua 5 chuoi (string), va moi chuoi 
+			//co do dai toi da la 79 ky tu
+
+
