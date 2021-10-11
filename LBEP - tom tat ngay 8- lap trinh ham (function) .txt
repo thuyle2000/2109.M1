@@ -39,7 +39,20 @@ known as __________ .
    ví dụ: printf() / scanf() / gets() / getchar() / getche() / putchar() / puts()
  	  strlen() / strcat() / strcmp() / strchr() / strcpy() / strstr() 
 	  malloc() / calloc() / realloc() / free()
-   
+
+
+3/ cú pháp của 1 ct hàm
+type_specifier function_name(args){
+	body of function
+}
+
+
+kiểu-dữ-liệu tên_hàm(ds tham số){
+	thân hàm
+}
+
+
+  
 
 
 
