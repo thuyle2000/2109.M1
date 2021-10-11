@@ -5,13 +5,15 @@
 // vidu demo ve lap trinh ham don gian
 // viet chuong trinh ham tinh cong 2 so nguyen 
 
-//khai bao ham add2Num();
+//khai bao ham add2Num() - function prototype
 void add2Num();
 
 int main(){
 	
 	//goi ham add2Num(), de ham nay thuc hien chuong trinh cong 2 so
-	add2Num();
+	
+	add2Num();		
+
 }
 
 

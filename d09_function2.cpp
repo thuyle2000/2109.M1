@@ -6,7 +6,7 @@
 // vidu demo ve lap trinh ham don gian
 // viet chuong trinh ham tinh cong 2 so nguyen - version 2
 
-//khai bao ham
+//khai bao ham - function prototype
 void add2Num(int a, int b);
 
 
