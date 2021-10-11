@@ -42,14 +42,14 @@ known as __________ .
 
 
 3/ cú pháp của 1 ct hàm
-type_specifier function_name(args){
-	body of function
-}
+	type_specifier function_name(args){
+		body of function
+	}
 
 
-kiểu-dữ-liệu tên_hàm(ds tham số){
-	thân hàm
-}
+	kiểu-dữ-liệu   tên_hàm(ds tham số){
+		thân hàm
+	}
 
 4/ tham số của chương trình hàm :
   - tham số hình thức (biến xuất hiện ở định nghĩa hàm, bao gồm kiểu dữ liệu)
@@ -76,6 +76,8 @@ kiểu-dữ-liệu tên_hàm(ds tham số){
   - truyền địa chỉ (pass by reference): địa chỉ của ts thực tế đc gởi cho ts hình thức,
                               và vì vậy gtri của ts thực tế có thể bị thay đổi sau khi
                               gọi hàm.
- 
+
 9/ con trỏ hàm:
   - hàm đặc biệt, chứa địa chỉ của hàm khác.
+
+
