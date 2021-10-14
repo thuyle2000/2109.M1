@@ -1,0 +1,45 @@
+cac phuong phap sort (sap xep du lieu):
+- vi du : co tap du lieu {23, 90, 9, 25, 16}
+
+1/ Bubble sort:
+	b1. so sanh cac cap so o vi tri (4,5)  (3,4)  (2,3)  (1,2) 
+ 	   (4,5) = {25,16} => hoan doi (4,5) = {16,25}
+			   => tap du lieu {23, 90, 9, 16, 25}
+
+	   (3,4) = {9,16}
+	   (2,3) = {90,9}  => hoan doi (2,3) = {9,90}
+			   => tap du lieu {23, 9, 90, 16, 25}
+
+	   (1,2) = {23,9}  => hoan doi (1,2) = {9,23}
+			   => tap du lieu {9 | 23, 90, 16, 25}
+
+
+
+	b2. so sanh cac cap so o vi tri (4,5)  (3,4)  (2,3) 
+  
+	   (4,5) = {16,25} 
+	   (3,4) = {90,16}  => hoan doi (3,4) = {16,90}
+			   => tap du lieu {9 | 23, 16, 90, 25}
+
+	   (2,3) = {23,16}  => hoan doi (2,3) = {16,23}
+			   => tap du lieu {9, 16 | 23, 90, 25}
+
+
+
+	b3. so sanh cac cap so o vi tri (4,5)  (3,4)  
+  
+	   (4,5) = {90,25} => hoan doi (4,5) = {25,90}
+			   => tap du lieu {9, 16 | 23, 25, 90}
+
+	   (3,4) = {23,25}  
+			  => tap du lieu {9, 16, 23 | 25, 90}
+
+
+
+	b4. so sanh cac cap so o vi tri (4,5)  
+
+	   (4,5) = {25,90} 
+			  => tap du lieu {9, 16, 23 , 25 , 90}
+
+
+2/ Insert sort

@@ -4,10 +4,12 @@
 
 //demo thuat toan sap xep bubble sort
 int main(){
-	int a[5] = {23, 90, 9, 25, 16};
-	
+	int a[10] = {23, 90, 9, 25, 16, 45, 79, 22, -11, 28};
+	int n = 10;
+		
+	printf("* * * Bubble Sort * * * \n");	
 	printf("Day so chua duoc xep thu tu: \n");
-	int n = 5;
+
 	for(int i=0; i<n; i++ ){
 		printf(" %4d", a[i]);
 	}
