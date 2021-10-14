@@ -43,3 +43,33 @@ cac phuong phap sort (sap xep du lieu):
 
 
 2/ Insert sort
+
+
+* * * * * * * * * * * * * * * * * * * * * *
+* CYP session 17: String
+* * * * * * * * * * * * * * * * * * * * * *
+1. Strings are terminated by the ___Null (\0)__ character.
+2. The number of characters that can be input into char arr[15] is _14__.
+3. Modification of the string pointer can lead to data loss. (True / False) True
+4. The character is used to print a new line in printf(). '\n'
+5. To use the strcat() function, the _<string.h>__ header file must be included 
+   in the program.
+6. Two pointers can be compared only if both these variables are pointing to 
+   variables of different types. (True / False) False
+7. strcmp() returns _0__ if two strings are identical.
+8. When an array is passed to a function, only its __address_____ is passed.
+
+* * * * * * * * * * * * * * * * * * * * * *
+* CYP session 19: Structure
+* * * * * * * * * * * * * * * * * * * * * *
+1. A ___structure__ groups together a number of data items, which need not be of 
+   the same data type.
+2. Individual structure elements are referenced through the use of the __dot operator__.
+3. Values of one structure variable can be assigned to another variable of the 
+   same type using a simple assignment statement. (True / False) True
+4. It is impossible to have one structure within another structure. (True / False)
+   False
+5. A new data type name can be defined by using the _typedef__keyword.
+6. In bubble sort, the ___adjacent______elements are compared.
+7. In insertion sort, if an unsorted element has to be put in a particular sorted 
+   location, values are swapped. (True / False) False
