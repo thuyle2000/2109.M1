@@ -23,7 +23,7 @@ session 19: Lập trình đọc ghi file (File IO)
 	3. đóng file: fclose() / fcloseall()
 
 5/ một số hàm hổ trợ xử lý thao tác đọc/ghi file:
-	-feof() : kiểm tra xem file đang đọc đã hết dữ liệu cần đọc chưa
+	-feof()   : kiểm tra xem file đang đọc đã hết dữ liệu cần đọc chưa
 	-rewind() : chuyển đầu đọc/ghi về byte đầu tiên của file
 	-ferror() : kiểm tra thao tác đọc/ghi vừa mới thực hiện có lỗi sai hay ko?
 	-remove() : xóa 1 tập tin (file) bất kỳ
@@ -33,4 +33,28 @@ session 19: Lập trình đọc ghi file (File IO)
 
 
 
+* * * * * * * * * * * * * * * * * * * * * * * * * 
+* CYP session 21: File Handling
+* * * * * * * * * * * * * * * * * * * * * * * * * 
+
+1. The two types of streams are the _text__ and _binary_ streams.
+
+2. Open files are closed when a program crashes. (True/False) False
+
+3. The _fopen()__ function opens a stream for use and links a file with that stream.
+
+4. The function used for writing characters to a file is _fputc()___.
+
+5. The fgets() function considers a new line character as a part of the string. 
+(True/False) True
+
+6. The __rewind()__ function resets the file position indicator to the beginning of the file.
+
+7. Whenever a character is read from or written to the stream, the _current active pointer__ is
+incremented.
+
+8. Files on which fread() and fwrite() operate must be opened in ___r+b___ mode.
+
+9. The current location of the current active pointer can be found with the help of the _ftell()_
+function.
 
