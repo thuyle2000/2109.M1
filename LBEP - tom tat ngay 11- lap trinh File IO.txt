@@ -1,0 +1,36 @@
+session 19: Lập trình đọc ghi file (File IO)
+
+1/ stream : logical device, bao gồm binary & text stream.
+	- text stream bao gồm nhiều chuỗi ký tự, mỗi chuỗi kết thúc bằng mã '\n'
+	- binary stream bao 1 chuỗi byte dữ liệu.
+2/ file : 
+	- có thể là 1 tập tin trên dĩa, hoặc là 1 terminal, hoặc là printer
+	- file nối kết với stream thông qua thao tác open, ngắt kết nối thông qua thao tác close
+
+3/ file pointer: structure mô tả các thành phần liên quan đến chức năng đọc/ghi file.
+
+4/ Các bước thực hiện đọc/ghi file:
+	1. mở file: fopen()
+	2. đọc hoặc ghi dữ liệu:
+		a/ dữ liệu dạng văn bản (text) 
+			- ghi dữ liệu: fputc() / fputs()
+		   	- đọc dữ liệu: fputc() / fgets()
+
+		b/ dữ liệu dạng nhị phân (binary)
+			- ghi dữ liệu: fwrite() / fprintf()
+			- đọc dữ liệu: fread() / fscanf()
+
+	3. đóng file: fclose() / fcloseall()
+
+5/ một số hàm hổ trợ xử lý thao tác đọc/ghi file:
+	-feof() : kiểm tra xem file đang đọc đã hết dữ liệu cần đọc chưa
+	-rewind() : chuyển đầu đọc/ghi về byte đầu tiên của file
+	-ferror() : kiểm tra thao tác đọc/ghi vừa mới thực hiện có lỗi sai hay ko?
+	-remove() : xóa 1 tập tin (file) bất kỳ
+	-fflush() : chuyển hết nội dung dữ liệu trong bộ đệm (buffer) -> file
+	-ftell()  : trả về vị trí con trỏ đọc/ghi (current active pointer - curp)
+	-fseek()  : di chuyển con trỏ đọc/ghi đến 1 vị trí mới
+
+
+
+
